@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login ID</title>
+    <style>
+        body{
+            background-color: #0f241b;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+        }
+        .cont{
+            height: 300px;
+            width: 500px;
+            /* box-shadow: 5px 5px 5px aliceblue; */
+            box-shadow: 0 0 4px 3px rgba(255, 251, 251, 0.5);
+
+            z-index: 1;
+        }
+        div h1{
+            text-align: center;
+            color: white;
+        }
+        .same{
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .btn{
+            width: 324px;
+            padding: 7px;
+            margin-left: 20px;
+            margin-top: 5px;
+            background-color: #0a86f2;
+            color: aliceblue;
+            font-size: large;
+        }
+        .btn:hover{
+            background-color: #116c99;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="cont">
+            <h1>Login</h1>
+            <label for="text"></label>
+            <input type="text" class="same" placeholder="Username">
+            <br>
+            <label for="password"></label>
+            <input type="password" class="same" placeholder="Password">
+            <br>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
