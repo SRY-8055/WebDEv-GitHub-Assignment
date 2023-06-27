@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login ID</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #171b19;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+        }
+        .cont{
+            height: 500px;
+            width: 500px;
+            box-shadow: 0 0 4px 3px rgba(53, 235, 241, 0.703);
+            z-index: 1;
+            color: aliceblue;
+            font-family: 'Belanosima', sans-serif;
+        }
+        div h1{
+            text-align: center;
+            color: white;
+        }
+        div label{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        .same{
+            margin: 10px;
+            margin-left: 20px;
+            width: 300px;
+            padding: 5px;
+            border: none;
+            outline: none;
+        }
+        .btn{
+            width: 324px;
+            padding: 5px;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-color: #06e9f9;
+            color: aliceblue;
+            font-size: large;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: #2b878d;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="cont">
+            <h1>Sign Up</h1>
+            <label for="Name"> Name:</label>
+            <br>
+            <input type="text" class="same">
+            <br>
+            <label for="Batch">Batch:</label>
+            <br>
+            <select name="batch" class="same">
+                <option value="">Please Choose a Batch</option>
+                <option value="Sigma 1.0">Sigma 1.0</option>
+                <option value="Decode 1.0">Decode 1.0</option>
+                <option value="Decode 2.0">Decode 2.0</option>
+                <option value="Web Development ">Web Development</option>
+            </select>
+            <br>
+            <label for="Age"> Age:</label>
+            <br>
+            <input type="number" class="same">
+            <br>
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" class="same">
+            <br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" class="same">
+            <br>
+            <button class="btn">Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
